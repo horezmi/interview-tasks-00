@@ -1,43 +1,43 @@
 body
-	header
-		div.header
-			div.header__container
+	header.header
+		div.header__container
 				div.header__logo QSOFT
-				nav 
-					ul.header__links
-						li.header__link(href="#") Новости
-						li.header__link(href="#") Проекты
-						li.header__link(href="#") Контакты
-						li.header__link-tel(href=""tel:+78888888888") +7 (888) 888-88-88 
+				nav.nav
+					ul.nav__links
+						li.nav__link
+							a.news-link(href="#") Новости
+						li.nav__link
+							a.projects-link(href="#") Проекты
+						li.nav__link
+							a.contacts-link(href="#") Контакты
+						li.nav__link-tel
+							a.tel-link(href="tel:+78888888888") +7 (888) 888-88-88	 
 	main
-		section
-			div.order
-				div.order__container
+		section.order
+			div.order__container
 					h1.order__promo Лидер в разработке интегрированных и высоконагруженных интернет-решений
 					button.order__button Заказать
-		section
-			div.news
-				div.news__container
+		section.news
+			div.news__container
 					h2.news__title Новости
-					div.news__posts
-						div.news__post
-							img.news__post__img
-							h3.news__post__title
-							div.news__post__border
-							p.news__post__description
-						div.news__post
-							img.news__post__img
-							h3.news__post__title
-							div.news__post__border
-							p.news__post__description
-						div.news__post
-							img.news__post__img
-							h3.news__post__title
-							div.news__post__border
-							p.news__post__description
-	footer
-		div.footer
-			div.footer__container
+					div.posts
+						div.post
+							img.post__img(src="img/post1-img.jpg" alt="")
+							h3.post__title
+							div.post__border
+							p.post__description
+						div.post
+							img.post__img(src="img/post2-img.jpg" alt="")
+							h3.post__title
+							div.post__border
+							p.post__description
+						div.post
+							img.post__img(src="img/post1-img.jpg" alt="")
+							h3.post__title
+							div.post__border
+							p.post__description
+	footer.footer
+		div.footer__container
 				div.footer__promo
-					p.footer__links @QSOFT, 2019 Работает на 1С-Битрикс: <a href="#">Управление сайтом</a>, <a href="#">Политика конфиденциальности</a>
+					p.footer__links @QSOFT, 2019 Работает на 1С-Битрикс: <a class="manage-site" href="#">Управление сайтом</a>, <a class="policy-site" href="#">Политика конфиденциальности</a>
 				div.footer__button Подписаться
