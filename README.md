@@ -1,2 +1,2 @@
 # interview-tasks-00
-Technical testing for a Junior Frontend Developer position.
+Test task for a Frontend Developer position. Html, css, flexbox, pug, bem.
